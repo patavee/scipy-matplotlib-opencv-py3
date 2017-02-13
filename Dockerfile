@@ -53,7 +53,7 @@ RUN cd /tmp && \
     cd opencv-3.2.0/build && \
     cmake \
     -D CMAKE_BUILD_TYPE=RELEASE \
-    -D BUILD_opencv_python2=YES \
+    -D BUILD_opencv_python2=NO \
     -D BUILD_JPEG=YES \
     -D WITH_WEBP=YES \
     -D WITH_OPENEXR=YES \ 
